@@ -82,7 +82,7 @@ end
 %% task 2
 s = 2.22 * f * b_m_cur * s_a * k_cu * s_b * k_fe * j * 10^(-6);
 k_tr = u_1/u_2;
-w_1 = u_1 / (4.44 * f * b_m * s_a * k_fe * 10^(-6));
+w_1 = u_1 / (4.44 * f * b_m_cur * s_a * k_fe * 10^(-6));
 w_2 = w_1 / k_tr;
 
 i_1n = i_n/w_1;
